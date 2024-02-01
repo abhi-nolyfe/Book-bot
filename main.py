@@ -4,9 +4,6 @@ def main():
     num_words = words_count(text)
     letters_dict = letters_count(text)
     report = generate_report(book_path, num_words, letters_dict)
-    print(text)
-    print(num_words)
-    print(letters_dict)
     print(report)
 
 def generate_report(path, num_words, letters_dict):
